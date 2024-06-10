@@ -1,0 +1,54 @@
+<!-- Detailed View Screen Layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="100dp">
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weatherApp2" />
+
+    <!-- TextView for the day of the week -->
+    <TextView
+        android:id="@+id/day_of_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <!-- TextView for the minimum temperature -->
+    <TextView
+        android:id="@+id/min_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min Temp: --"
+        android:textSize="30sp"/>
+
+    <!-- TextView for the maximum temperature -->
+    <TextView
+        android:id="@+id/max_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Temp: --"
+        android:textSize="30sp"/>
+
+    <!-- TextView for the weather condition -->
+    <TextView
+        android:id="@+id/weather_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condition: --"
+        android:textSize="30sp"/>
+
+    <!-- Button to navigate back to the main screen -->
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main"
+        android:textSize="25sp"/>
+</LinearLayout>
